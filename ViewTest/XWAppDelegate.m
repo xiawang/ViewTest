@@ -6,17 +6,26 @@
 //  Copyright (c) 2014年 Xiaotian Wang. All rights reserved.
 //
 
+#import "XWSimpleView.h"
 #import "XWAppDelegate.h"
 
 @implementation XWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor redColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  // Override point for customization after application launch.
+  
+  // create view
+  CGRect frame1 = CGRectMake(50, 50, 100, 100);
+  XWSimpleView* view1 = [[XWSimpleView alloc] initWithFrame:frame1];
+  view1.backgroundColor = [UIColor whiteColor];
+  [self.window addSubview:view1];
+  
+  
+  self.window.backgroundColor = [UIColor redColor];
+  [self.window makeKeyAndVisible];
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

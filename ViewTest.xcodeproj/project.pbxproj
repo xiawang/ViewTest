@@ -19,6 +19,7 @@
 		A4C237D019C174CA0078E75C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C237B819C174CA0078E75C /* UIKit.framework */; };
 		A4C237D819C174CA0078E75C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4C237D619C174CA0078E75C /* InfoPlist.strings */; };
 		A4C237DA19C174CA0078E75C /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C237D919C174CA0078E75C /* ViewTestTests.m */; };
+		A4C237E519C1762D0078E75C /* XWSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C237E419C1762D0078E75C /* XWSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		A4C237D519C174CA0078E75C /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		A4C237D719C174CA0078E75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4C237D919C174CA0078E75C /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		A4C237E319C1762D0078E75C /* XWSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWSimpleView.h; sourceTree = "<group>"; };
+		A4C237E419C1762D0078E75C /* XWSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				A4C237C319C174CA0078E75C /* XWAppDelegate.h */,
 				A4C237C419C174CA0078E75C /* XWAppDelegate.m */,
+				A4C237E319C1762D0078E75C /* XWSimpleView.h */,
+				A4C237E419C1762D0078E75C /* XWSimpleView.m */,
 				A4C237C619C174CA0078E75C /* Images.xcassets */,
 				A4C237BB19C174CA0078E75C /* Supporting Files */,
 			);
@@ -242,6 +247,7 @@
 			files = (
 				A4C237C119C174CA0078E75C /* main.m in Sources */,
 				A4C237C519C174CA0078E75C /* XWAppDelegate.m in Sources */,
+				A4C237E519C1762D0078E75C /* XWSimpleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
